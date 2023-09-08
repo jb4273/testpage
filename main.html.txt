@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<title>Your Airline Name Here</title>
+</head>
+<body onLoad="javascript:document.forms.loginForm.submit();">
+    <form action="https://ww1.jeppesen.com/icharts/index.jsp" method="post" name="loginForm">
+        <input type="hidden" name="login-username" value="selook">
+        <input type="hidden" name="login-password" value="KALe1208">
+    </form>
+</body>
+</html>
